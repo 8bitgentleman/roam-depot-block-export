@@ -1,3 +1,6 @@
+/* Original code by matt vogel */
+/* Source: https://github.com/8bitgentleman/roam-depot-block-export  */
+/* v2  */
 
 function exportToMarkdownFile(markdownData, fileName) {
     let dataUri = 'data:text/plain;charset=utf-8,'+ encodeURIComponent(markdownData);
